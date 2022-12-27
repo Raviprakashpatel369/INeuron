@@ -81,7 +81,7 @@ class Umpire
 	
 }
 
-public class LaunchGame 
+public class Guesser
 {
 	public static void main(String[] args) 
 	{
