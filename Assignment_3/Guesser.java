@@ -33,7 +33,7 @@ class Umpire
 	{
 		int numberOfPlayers;
 		do{
-			System.out.println("Enter the number of players (Max 5 Players):");
+			System.out.println("Enter the number of players (<=5):");
 			Scanner sc = new Scanner(System.in);
 			numberOfPlayers = sc.nextInt();
 			if(numberOfPlayers > 0 && numberOfPlayers <= 5)
@@ -73,7 +73,7 @@ class Umpire
 			for (int i=0 ; i<players.length;i++ )
 			{
 				if(players[i].isGuessed)
-					System.out.println("Player :"+(i+1)+" have guessed the Correct number");					
+					System.out.println("Player "+(i+1)+": have guessed the correct number");					
 			}
 		}		
 		
@@ -81,7 +81,7 @@ class Umpire
 	
 }
 
-public class LaunchGame 
+public class Guesser
 {
 	public static void main(String[] args) 
 	{
